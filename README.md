@@ -1,6 +1,6 @@
 # Toy Store CLI
-by [Christopher Gutierrez](mailto:christophergoot@gmail.com)
-[christophergoot.com](http://christophergoot.com)
+#### by [Christopher Gutierrez](mailto:christophergoot@gmail.com)
+#### [christophergoot.com](http://christophergoot.com)
 
 ## Description
 A command line interface to a transactional key value store. A user can enter commands to get/get/delete key:value pairs and count values. All values are treated as strings, and data only exists in session memory
@@ -11,9 +11,9 @@ A command line interface to a transactional key value store. A user can enter co
 3. Load using `node javascript-cli.js`
 
 ## Supported Commands
-|Command            |Description   |
+|Command|Description|
 |---|---|
-|SET <key> <value>  |store the value for key   |
-|GET <key>          |return the current value for key   |
-|DELETE <key>       |remove the entry for key   |
-|COUNT <value>      |return the number of keys that have the given value   |
+|SET \<key\> \<value\>  |store the value for key   |
+|GET \<key\>          |return the current value for key   |
+|DELETE \<key\>       |remove the entry for key   |
+|COUNT \<value\>      |return the number of keys that have the given value   |
